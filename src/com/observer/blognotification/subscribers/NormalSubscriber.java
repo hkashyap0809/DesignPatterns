@@ -1,14 +1,12 @@
-package com.observerpattern.blognotification.subscribers;
+package com.observer.blognotification.subscribers;
 
-import com.observerpattern.blognotification.publishers.Blog;
+import com.observer.blognotification.publishers.Blog;
 
-public class PremiumSubscriber implements BlogSubscriber{
-
-	
+public class NormalSubscriber implements BlogSubscriber{
 	private String name;
 	private String email;
 	
-	public PremiumSubscriber(String name, String email) {
+	public NormalSubscriber(String name, String email) {
 		this.name = name;
 		this.email = email;
 	}
@@ -21,8 +19,9 @@ public class PremiumSubscriber implements BlogSubscriber{
 
 	@Override
 	public String toString() {
-		return "PremiumSubscriber [name=" + name + ", email=" + email + "]";
+		return "NormalSubscriber [name=" + name + ", email=" + email + "]";
 	}
+	
 	
 
 }

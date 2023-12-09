@@ -1,4 +1,4 @@
-package com.observerpattern.blognotification.publishers;
+package com.observer.blognotification.publishers;
 
 public class Blog {
 	

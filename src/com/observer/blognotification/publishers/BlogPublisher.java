@@ -1,12 +1,12 @@
-package com.observerpattern.blognotification.publishers;
+package com.observer.blognotification.publishers;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.observerpattern.blognotification.subscribers.BlogSubscriber;
-import com.observerpattern.blognotification.subscribers.SUBSCRIBER_TYPE;
+import com.observer.blognotification.subscribers.BlogSubscriber;
+import com.observer.blognotification.subscribers.SUBSCRIBER_TYPE;
 
 public class BlogPublisher {
 	private HashMap<Enum<SUBSCRIBER_TYPE>,List<BlogSubscriber>> subscriberMap;

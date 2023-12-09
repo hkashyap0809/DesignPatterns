@@ -1,4 +1,4 @@
-package com.observerpattern.blognotification.subscribers;
+package com.observer.blognotification.subscribers;
 
 public enum SUBSCRIBER_TYPE {
 	NORMAL_SUBSCRIBER,

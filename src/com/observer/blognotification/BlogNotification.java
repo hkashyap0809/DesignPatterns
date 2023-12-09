@@ -1,11 +1,11 @@
-package com.observerpattern.blognotification;
+package com.observer.blognotification;
 
-import com.observerpattern.blognotification.publishers.Blog;
-import com.observerpattern.blognotification.publishers.BlogPublisher;
-import com.observerpattern.blognotification.subscribers.BlogSubscriber;
-import com.observerpattern.blognotification.subscribers.NormalSubscriber;
-import com.observerpattern.blognotification.subscribers.PremiumSubscriber;
-import com.observerpattern.blognotification.subscribers.SUBSCRIBER_TYPE;
+import com.observer.blognotification.publishers.Blog;
+import com.observer.blognotification.publishers.BlogPublisher;
+import com.observer.blognotification.subscribers.BlogSubscriber;
+import com.observer.blognotification.subscribers.NormalSubscriber;
+import com.observer.blognotification.subscribers.PremiumSubscriber;
+import com.observer.blognotification.subscribers.SUBSCRIBER_TYPE;
 
 public class BlogNotification {
 	
